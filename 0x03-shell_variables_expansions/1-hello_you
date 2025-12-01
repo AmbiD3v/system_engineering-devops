@@ -1,2 +1,2 @@
 #!/bash/bash
-echo "hello $USER"
+echo "hello $GAKEN"
