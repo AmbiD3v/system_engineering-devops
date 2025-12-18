@@ -1,3 +1,2 @@
 #!/bin/bash
-# Creates a file named *\'"Best School"\'\*$\?*****:) with content "Best School"
 echo "Best School" > '*\'"Best School"\'\*$\?*****:)'
