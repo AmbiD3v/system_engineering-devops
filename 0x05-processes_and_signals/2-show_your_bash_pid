@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
-# This is a bash script
-ps auxf
 # shellcheck disable=SC2009
 ps auxf | grep bash
