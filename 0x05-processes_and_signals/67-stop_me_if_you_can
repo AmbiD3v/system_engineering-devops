@@ -1,12 +1,4 @@
 #!/usr/bin/env bash
-# 7-highlander: infinite loop that reacts to SIGTERM
+# 67-stop_me_if_you_can: send SIGTERM to 7-highlander
 
-# Handle SIGTERM
-trap 'echo "I am invincible!!!"' SIGTERM
-
-# Infinite loop
-while true
-do
-    echo "To infinity and beyond"
-    sleep 2
-done
+pkill -SIGTERM -f 7-highlander
