@@ -1,13 +1,8 @@
 #!/usr/bin/env bash
-# Infinite loop that prints "To infinity and beyond" and reacts to SIGTERM
+# 7-highlander: infinite loop that reacts to SIGTERM
 
-# Function to handle SIGTERM
-term_handler() {
-    echo "I am invincible!!!"
-}
-
-# Trap SIGTERM and call term_handler
-trap 'term_handler' SIGTERM
+# Trap SIGTERM signal
+trap 'echo "I am invincible!!!"' SIGTERM
 
 # Infinite loop
 while true; do
