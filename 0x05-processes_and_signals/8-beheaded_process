@@ -1,3 +1,3 @@
-#!/usr/bin/env bash
-# This is a script
-kill -9 "$(pgrep -f 7-highlander)"
+#!/bin/bash
+# this script displays
+pkill -9 -f 7-highlander
